@@ -52,3 +52,5 @@ alias tmigrate='be rake db:migrate && be rake db:migrate:redo && be rake db:stru
 alias vi='vi -u /usr/share/vim/vimrc'
 alias vim='mvim'
 alias whopaired='git log --format=format:"%ad %an" --date=short | sort | uniq -c'
+alias irb_record='script -a `date '+%m-%d-%Y'`.irb irb'
+
